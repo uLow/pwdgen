@@ -8,7 +8,7 @@ if ($_POST) {
     $types = isset($_POST['types']) ? array_keys($_POST['types']) : [];
 
     $view->setVar('length', $length);
-    $view->setVar('types', $_POST['types']);
+    $view->setVar('types', isset($_POST['types']) ?: []);
 
     try {
         $generator = new \CodinPro\Lib\PasswordGenerator($length, $types);
