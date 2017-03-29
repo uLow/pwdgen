@@ -1,0 +1,17 @@
+{
+    "name": "codin-pro/pwdgen",
+    "description": "Test task",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "CodinPro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitalijs Litvinovs",
+            "email": "dev@codin.pro"
+        }
+    ],
+    "require": {}
+}
